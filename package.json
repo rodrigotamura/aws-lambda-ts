@@ -1,0 +1,23 @@
+{
+  "name": "lambda",
+  "version": "1.0.0",
+  "description": "## Requisitos: - AWS Cli; - Typescript package (`npm i -g typescript`); - tsc-node package para transpilação (`npm i -g ts-node`); - Ter configurado o ambiente: `aws configure`, e será necessário informar a AWS Access Key ID, Secret e region (use o `us-east-2`).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigotamura/aws-lambda-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigotamura/aws-lambda-ts/issues"
+  },
+  "homepage": "https://github.com/rodrigotamura/aws-lambda-ts#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.1"
+  }
+}
